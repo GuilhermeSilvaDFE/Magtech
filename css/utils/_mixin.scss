@@ -1,0 +1,6 @@
+@mixin wraper-style (){
+    border: 3px solid $color-black;
+    background-color: $color-white;
+    box-shadow: 8px 8px 0px $color-black;
+    color: $color-black;
+}

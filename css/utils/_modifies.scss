@@ -1,0 +1,135 @@
+#is-added{
+   background-color: $color-orange;
+
+   .letter{
+     display: none ;
+   }
+}
+#is-clicked{
+   background-color: $color-orange; 
+}
+#is-hided{
+    display: none;
+}
+#is-yellow-shadow{
+   
+    box-shadow: -4px 5px 0px $color-yellow;
+}
+#is-not-visible{
+    visibility: hidden;
+}
+
+.is-in-focus{
+   outline: 3px solid $color-white;
+   border-radius: 1px;
+   box-shadow: 0 0 10px rgb(99, 99, 99);
+   color:$color-black;
+    // background-color:rgb(5, 91, 156) !important;
+   
+}
+#is-disabled{
+    box-shadow: none;
+    color: rgb(197, 197, 197);
+    background-color: rgb(147, 145, 142);
+    
+}
+.is-color-random{
+    background-color: att(data-color-random);
+}
+
+.is-clickable{
+    cursor: pointer !important;
+    background-color: $color-orange;
+    &:active{
+        transform: scale(.9);
+    }
+
+}
+
+.has-tooltip{
+    position: relative;
+    &::after{
+        content: attr(data-tooltip);
+        position: absolute;
+        color: rgba(0, 0, 0, 0.605);
+        text-wrap: nowrap;
+        font-size: .7rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color: $color-white;
+        border: 1px solid $color-black;
+        padding: .1rem;
+        top: 110%;
+        opacity: 0;
+        transform: translateY(0);
+        transition-property: opacity, transform;
+        transition-duration: .3s;
+        
+    }
+    &::before{
+        content: "";
+        display: inline-block;
+        
+        position:absolute;
+        border-width: 6px;
+        border-style: solid;
+        border-color:  transparent transparent $color-black transparent;
+        opacity: 0;
+        transition-property: opacity;
+        transition-duration: .2s;
+        top: 93%;
+    }
+
+    &:hover::after{
+        transform: translateY(3px);
+        opacity: 1;
+    }
+    &:hover::before {
+        opacity: 1;
+    }
+}
+
+
+
+.wraper-values-quest[data-enable="is-enabled"]{
+    
+    background-color: bisque;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    padding: 0 .4rem 0 0;
+    margin: 0 .2rem 0 .2rem;
+
+    &::before{
+        content: "|";
+        color: transparent;
+    }
+
+    &:empty{
+        min-width: 50px;
+    }
+}
+
+.is-conclued{
+    position: relative;
+    text-decoration: line-through !important;
+    &::after{
+        content: "j";
+        color: transparent;
+        width:20px ;
+        height: 20px;
+        background-image: url("/img/verifica.png");
+        background-color: greenyellow;
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        border: 1px solid $color-black;
+        border-radius: 100%;
+        position:absolute;
+        display: inline-block;
+        left: 90%;
+        bottom: 60%;
+    }
+}
+
+.is-text-end{
+    text-align: end !important;
+}

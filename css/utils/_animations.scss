@@ -1,0 +1,18 @@
+@keyframes top-to-button{
+    0%{
+        opacity: 0;
+        transform: translate(-50%, -200%);
+    }
+    50%{
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+    80%{
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(-50%, -200%);
+    }
+}

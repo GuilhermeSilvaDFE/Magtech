@@ -1,0 +1,118 @@
+
+.button-style{
+    appearance: none;
+    text-decoration: none;
+    border: 1.8px solid $color-black;
+    font-weight: bolder;
+    border-radius: 40px;
+    padding: .5rem;
+    // width: 160px;
+    background-color: $color-white;
+    box-shadow: -4px 5px 0px $color-black;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: .7rem;
+    cursor: pointer;
+    color: $color-black;
+
+    transition-property: transform, box-shadow;
+    transition-duration: .4s;
+    transition-timing-function:cubic-bezier(0.23, 1, 0.320, 1);
+
+    &:hover{
+        background-color: $color-orange;
+    }
+    &:active{
+        transform: scale(.87);
+        box-shadow: -2px 2px 0px $color-black;
+    }
+}
+
+.btn-quest{
+    font-weight: 200;
+    
+    .number-quest{
+        position: relative;
+        left: 10px;
+        font-weight: 800;
+        border: 1.8px solid $color-black;
+        padding: .5rem;
+        border-radius: 100%;
+        background-color: $color-yellow;
+        color: $color-black;
+    }
+
+    
+   
+}
+
+
+
+.btn-next, .btn-back{
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.btn-back-page, .modal-login__btn-close, .modal-profile__btn-close, .modal-inlustration__btn-close{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    img{
+        width: 100%;
+    }
+}
+
+.img-btn-close{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../img/back-button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+                
+}
+
+.btn-home{
+    @extend .button-style;
+    box-shadow: 0px 5px 0px $color-yellow;
+    text-transform: capitalize;
+    width: 230px;
+    padding: 1rem;
+
+    &:active{
+        transform: scale(.87);
+        box-shadow: 0px 2px 0px $color-yellow;
+    }
+
+    &:nth-of-type(2){
+         box-shadow: 0px 5px 0px $color-black;
+    }
+}
+
+.medidas{
+    font-size: medium;
+    font-weight: bolder;
+    border: 1.5px solid $color-black;
+    padding: 0 6px 0 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $color-orange;
+    }
+    &:active{
+       transform: scale(.9);
+    }
+}
+
+
+
+

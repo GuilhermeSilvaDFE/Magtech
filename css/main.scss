@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+
+@import "./utils/variaebles.scss";
+@import "./utils/modifies.scss";
+@import "./utils/mixin.scss";
+@import "./utils/animations.scss";
+@import "./components/formulas.scss";
+@import "./components/header.scss";
+@import "./components/buttom.scss";
+@import "./components/modals.scss";
+@import "./components/layout.scss";
+@import "./components/footer.scss";
+@import "./components/carousel.scss";
+@import "./components/conteiner-of-medidas.scss";
+@import "./components/modal-login.scss";
+@import "./components/modal-profile.scss";
+@import "./components/modal-warn.scss";
+
+
+
+sup{
+    font-size: .8rem;
+}
+
+.values-quest{
+    white-space:nowrap;
+    display: inline;
+    cursor: grab;
+
+}
+
+
+.wraper-values-quest{
+    display: inline-block;
+}
+
+
+
+
+
+

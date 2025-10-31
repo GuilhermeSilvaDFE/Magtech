@@ -1,0 +1,33 @@
+.carousel-container{
+    
+    overflow-x: hidden;
+    width: 100%;
+    padding: 8px;
+    
+    
+    .wraper{
+        width: 200%;
+        align-items: center;
+        justify-items:right;
+        grid-row-gap:43px ;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+        transition-property: margin-left;
+        transition-duration: 1s;
+    }
+}
+
+.conteiner-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#is-yellow-shadow{
+     .number-quest{
+            background-color: $color-blue-dark;
+            color: $color-white;
+    }
+}

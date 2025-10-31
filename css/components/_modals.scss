@@ -1,0 +1,92 @@
+
+.modal-conteiner-formulas{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    left: 30dvw;
+    bottom: 34dvh;
+    
+}
+
+//------------------------------------
+.modalFormula{
+    @extend .modal-conteiner-formulas;
+    // position: relative;
+    inset: 0px;
+    top: -32dvh;
+    
+
+    .modalFormula__wrapper{
+        display: flex;
+        gap: 2rem;
+        width:58dvw;
+        justify-content: space-between;
+        
+    }
+
+    .dados-formula{
+        padding: 1rem;
+        border: 2px solid $color-black;
+        background-color: $color-white;
+        border-radius: 10px;
+        width: 13rem;
+
+        .title-dados{
+            background-color: $color-orange;
+            display: block;
+            text-align: left;
+            font-size: small;
+            padding-left: 1rem;
+            margin-bottom: .5rem;
+        }
+        .dados{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-auto-rows: 1fr;
+            grid-row-gap: .5rem;
+            
+            span{
+                text-transform: none;
+                text-align: left;
+                padding-left: 1rem;
+            }
+        }
+        
+    }
+
+}
+
+//------------------------------------
+
+.modal-inlustration{
+    appearance: none;
+    width: 50dvw;
+    top: 10dvh;
+    left: 25dvw;
+
+
+    @include wraper-style()
+    
+}
+
+.modal-inlustration__wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-inlustration__img{
+    width: 100%;
+    clip-path: inset(8px);
+}
+.modal-inlustration__btn-close{
+    z-index: 1;
+}
+
+
+
+
+
+
+
+

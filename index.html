@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Magtech</title>
+</head>
+<body class="layout">
+   <main class="main">
+    <div class="main-content-intoduction">
+        <div class="cabessario">
+            <h1 class="title" >Magtech</h1>
+            <p> Recursos pedagógicos para o ensino de Campo magnético na <br> 3° série do ensino médio</p>
+        </div>
+        <div class="nomes">
+            <p> <b>Aluna:</b> Debora Gomes Batalha</p>
+            <p> <b>Orientador:</b> Dr. Márcio da Silva tavares</p>
+        </div>
+        <!-- <a href="pages/home.html">Iniciar</a> -->
+        <button class="btn-init button-style">Iniciar</button>
+        <dialog class="modal-login">
+            <div class="modal-login__wraper">
+                <button class="modal-login__btn-close btn-back has-tooltip" data-tooltip="voltar" ><img src="img/back-button.png" alt=""></button>
+                <div class="modal-login__registrar">
+                    <span class="modal-login__title">Registrar um novo perfil:</span>
+                    <input class="input-registrar" type="text" placeholder="Digite seu nome completo." >
+                    <div class="modal-login__wraper-btn">
+                        <button class="btn-registrar button-style" >Registrar</button>
+                        <p class="modal-login__signup">Já havia se registrado? click <a class="toggle-to-login">aqui.</a></p>
+                    </div>
+                </div>
+                <div id="is-hided" class="modal-login__login">
+                    <span class="modal-login__title">Fazer login:</span>
+                    <input class="input-login" type="text" placeholder="Digite seu nome completo." name="" id="">
+                    
+                    <div class="modal-login__wraper-btn">
+                        <button class="btn-login button-style" >Logar</button>
+                        <p class="modal-login__signup">Não? na verdade voçê quer é se <a class="toggle-to-registrar">registrar</a>?</p>
+                    </div>
+                </div>
+            </div>
+        </dialog>
+        
+    </div>
+             
+    </main>
+    
+    <script type="module" src="js/modules/login.js"></script>
+    <script type="module" src="js/main.js"></script>
+   
+</body>
+</html>

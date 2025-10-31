@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Magtech</title>
+</head>
+<body class="layout">
+    
+    <main class="main">
+        <div class="main-content-quest">
+            <div class="quest-statement"></divclass>
+                <div class="number-quest"><span></span></div>
+              
+
+            </div>
+           
+            <section class="section-opitions-conteiner">
+                <button class="button-style" ><a href="../resume.html">Resumo/Fórmulas</a></button>
+                <button  class="btn-select-formula button-style">selecionar Fórmulas</button>
+                <button id="is-disabled" class="btn-enable-variables button-style" >Nomear Variáveis</button>
+                <button class="button-style btn-adjust-measures" id="is-disabled" >Ajustar Unidades</button>
+                <button class="button-style btn-processar-calculo"  >Processar</button>
+                <button class="button-style btn-Inlustração"  >Inlustração</button>
+            </section>
+            <section class="section-display-formulas">
+
+            </section>
+        </div>
+        
+        
+       <dialog class="modal-inlustration">
+        <div class="modal-inlustration__wrapper">
+            <button class="btn-back modal-inlustration__btn-close"><img src="../img/back-button.png"></button>
+            <img  class="modal-inlustration__img" src="">
+        </div>
+            
+       </dialog>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/nerdamer@1.1.13/all.min.js"></script>
+    
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="../js/modules/calculos.js"></script>
+    <script type="module" src="../js/modules/drag_end_drop.js"></script>
+    <script type="module" src="../js/modules/modal_formulas.js"></script>
+    <script type="module" src="../js/looding_question.js"></script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,128 @@
+
+.header{
+    background-image:$gradient-blue-to-greem;
+    color: $color-white;
+    
+   
+    
+
+    .header-content{
+        padding: 0 $padding-main 0 $padding-main;
+        display: flex;
+        justify-content: space-around;
+        background-image: url("../../img/image8.png");
+        background-repeat: repeat-x;
+        background-position: left -2rem;
+        background-size: 40%;
+        width: 100%;
+        height: 100%;
+        
+
+        
+        
+        .logos {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            
+
+            &:nth-of-type(1){
+                border-right: 1px solid white;
+
+               
+            }
+
+            
+            &:nth-of-type(2){
+                
+                .img{
+                    width: 100%;
+                    height: 100%;
+                    background-image: url("../../img/sbf.png");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+               
+
+               
+            }
+            
+            &:nth-of-type(3){
+                
+                .img{
+                    width: 100%;
+                    height: 100%;
+                    background-image: url("../../img/ifma.png");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: 9px center;
+                    
+                }
+                > div{
+                    height: 100%;
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 1fr 3fr;
+                    font-size: .6rem;
+                    
+                    spam{
+                       display: flex;
+                       flex-direction: column-reverse;
+                       margin-bottom: 15px;
+                    }
+                }
+               
+               
+            }
+             &:nth-of-type(4){
+               .img{
+                    width: 100%;
+                    height: 100%;
+                    background-image: url("../../img/mnpef.png");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+
+               
+            }
+           
+        }
+    }
+
+}
+
+.perfil__wrapper{
+    
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+    &:hover{
+        border-color: rgb(144, 120, 169);
+    }
+
+    .perfil__letter{
+        color: $color-white;
+        font-size: 1.8rem;
+        font-weight: bolder;
+        
+    }
+
+                
+
+               
+}
+
+

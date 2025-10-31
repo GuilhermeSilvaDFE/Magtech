@@ -1,0 +1,175 @@
+
+
+.formulas{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+
+    .equal{
+        grid-row: 1/3;
+        display: flex;
+        gap: 8px;
+
+       
+    }
+    .numerador{
+        display: flex;
+        border-bottom: 2px solid $color-black;
+    }
+    .denominador{
+        display: flex;
+    }
+
+    
+  
+
+   
+}
+
+.conteiner-formulas{
+    color: black;
+    display: flex;
+    gap: 50px;
+
+    .wrap-formulas{
+        height: 160px;
+        width: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid $color-black;
+        background-color: $color-white;
+        box-shadow: 8px 8px 0px $color-black;
+       
+        cursor: pointer;
+
+        &:hover{
+            background-color: $color-orange;
+        }
+
+       
+
+    }
+
+    
+}
+.conteiner-calculos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 100%;
+    font-size: 1.1rem;
+
+     .formulas{
+            border: 3px solid $color-black;
+            padding: 10px;
+            background-color: $color-white;
+            box-shadow: 8px 8px 0px $color-black;
+            color: $color-black;
+            
+            .constantes{
+                border: 1.4px solid $color-black;
+                padding: 1px;
+
+                &:hover{
+                    background-color: $color-orange;
+                }
+
+            }
+            .numerador, .denominador{
+                gap: 5px;
+                padding: 3px;
+
+
+            }
+            .numerador{
+                border-bottom: 2px solid $color-black;
+            }
+
+    }
+
+    .expresion:not(:has(.denominador)){
+        .numerador{
+            border-bottom: none;
+            grid-row: 1/3;
+        }
+        
+    }
+}
+
+
+
+.modalFormula{
+    .formula-wrapper{
+        position: relative;
+        &::after{
+            content:attr(data-incognita);
+            width: 60px;
+            height: 60px;
+            display: block;
+            padding: 5%;
+            text-align: center;
+            box-sizing: border-box;
+            position: absolute;
+            left: 110%;
+            top: 0%;
+            background-color: $color-white;
+            box-shadow: 5px 5px 0px $color-black;
+            color: $color-black;
+            border: 3px solid $color-black;
+
+           
+        }
+        &::before{
+            content: "";
+            display: inline-block;
+            position: absolute;
+            margin-top: 10%;
+            width: 50px;
+            height: 3px;
+            left: 100%;
+            background-color: $color-black;
+
+        }
+
+        .formulas{
+            border: 3px solid $color-black;
+            padding: 1rem;
+            background-color: $color-white;
+            box-shadow: 8px 8px 0px $color-black;
+            color: $color-black;
+            
+            .constantes{
+                border: 1.4px solid $color-black;
+                padding: 1px;
+
+                &:hover{
+                    background-color: $color-orange;
+                }
+
+            }
+            .numerador, .denominador{
+                gap: 5px;
+                padding: 3px;
+
+
+            }
+
+        }
+
+
+       
+    }
+}
+
+
+
+
+
+
+
+    
+

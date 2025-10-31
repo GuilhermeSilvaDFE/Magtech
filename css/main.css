@@ -117,7 +117,7 @@
   color: transparent;
   width: 20px;
   height: 20px;
-  background-image: url("/img/verifica.png");
+  background-image: url("../img/verifica.png");
   background-color: greenyellow;
   background-position: center;
   background-size: 50%;
@@ -282,7 +282,7 @@
   padding: 0 7rem 0 7rem;
   display: flex;
   justify-content: space-around;
-  background-image: url("../../img/image8.png");
+  background-image: url("../img/image8.png");
   background-repeat: repeat-x;
   background-position: left -2rem;
   background-size: 40%;
@@ -301,7 +301,7 @@
 .header .header-content .logos:nth-of-type(2) .img {
   width: 100%;
   height: 100%;
-  background-image: url("../../img/sbf.png");
+  background-image: url("../img/sbf.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -309,7 +309,7 @@
 .header .header-content .logos:nth-of-type(3) .img {
   width: 100%;
   height: 100%;
-  background-image: url("../../img/ifma.png");
+  background-image: url("../img/ifma.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 9px center;
@@ -329,7 +329,7 @@
 .header .header-content .logos:nth-of-type(4) .img {
   width: 100%;
   height: 100%;
-  background-image: url("../../img/mnpef.png");
+  background-image: url("../img/mnpef.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -422,7 +422,7 @@
 .img-btn-close {
   width: 100%;
   height: 100%;
-  background-image: url("../../img/back-button.png");
+  background-image: url("../img/back-button.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

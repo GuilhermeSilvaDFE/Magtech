@@ -6,6 +6,10 @@
   font-family: "Nunito Sans", sans-serif;
 }
 
+html {
+  font-size: 20px;
+}
+
 #is-added {
   background-color: #fed101;
 }
@@ -179,8 +183,8 @@
   gap: 50px;
 }
 .conteiner-formulas .wrap-formulas {
-  height: 160px;
-  width: 140px;
+  height: 180px;
+  width: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,6 +248,7 @@
   box-shadow: 5px 5px 0px black;
   color: black;
   border: 3px solid black;
+  overflow: hidden;
 }
 .modalFormula .formula-wrapper::before {
   content: "";
@@ -467,7 +472,7 @@
 
 .modalFormula {
   inset: 0px;
-  top: -32dvh;
+  top: -30dvh;
 }
 .modalFormula .modalFormula__wrapper {
   display: flex;
@@ -594,6 +599,11 @@
   grid-template-rows: 77.7dvh;
 }
 
+.main:has(.main-content-quest) {
+  display: flex;
+  align-items: center;
+}
+
 .main-content-quest {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -631,11 +641,11 @@
 
 .footer {
   background-image: linear-gradient(90deg, rgb(0, 234, 255), rgb(145, 255, 0));
-  padding: 0 7rem 0 7rem;
+  padding: 2% 7rem 0 7rem;
   font-size: 0.9rem;
 }
 .footer p {
-  margin-top: 0.2rem;
+  text-align: center;
 }
 
 .carousel-container {

@@ -1,10 +1,11 @@
 .footer{
     background-image: $gradient-blue-to-greem;
-    padding: 0 $padding-main 0 $padding-main;
+    padding: 2% $padding-main 0 $padding-main;
+
 
     font-size: .9rem;
     p{
-        margin-top: .2rem;
+        text-align: center;
     }
 
 }

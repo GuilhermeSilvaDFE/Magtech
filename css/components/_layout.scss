@@ -82,6 +82,10 @@
 
 //-------------LAYOUT------------------//
 
+.main:has(.main-content-quest){
+    display: flex;
+    align-items: center;
+}
 .main-content-quest{
    display: grid;
    grid-template-columns: 1fr 3fr;

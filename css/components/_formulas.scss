@@ -35,8 +35,8 @@
     gap: 50px;
 
     .wrap-formulas{
-        height: 160px;
-        width: 140px;
+        height: 180px;
+        width: 160px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -120,6 +120,7 @@
             box-shadow: 5px 5px 0px $color-black;
             color: $color-black;
             border: 3px solid $color-black;
+            overflow: hidden;
 
            
         }

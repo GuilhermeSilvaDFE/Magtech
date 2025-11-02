@@ -505,7 +505,85 @@ export default function  dataBase(){
             inlustration:"../img/inlustrations/image-6.png",
             resolved: false,
             id:"06",
-            resposta:"[1200*μ0]"
+            resposta:"[1200*μ0]",
+            calculos: `
+                  <div class="conteiner-calculos">
+                    <div class="expresion formulas">
+                        <div class="equal">
+                                <div class="constantes caracteres">B</div>
+                                <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador"> 
+                                <div class="constantes caracteres">μ0</div>
+                                <div class="caracteres">•</div>
+                                <div class="constantes caracteres">I</div>
+                                <div class="caracteres">•</div>
+                                <div class="constantes caracteres">N</div>
+                        </div>
+                        <div class="denominador"> 
+                            <div class="constantes caracteres">2</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">R</div>
+                            
+                        </div>
+                    </div>
+                    <div class="expresion formulas">
+                        <div class="equal">
+                            <div class="constantes caracteres">B</div>
+                            <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador"> 
+                                <div class="constantes caracteres">4π · 10<sup>-7</sup></div>
+                                <div class="caracteres">•</div>
+                                <div class="constantes caracteres">10<sup>3</sup></div>
+                                <div class="caracteres">•</div>
+                                <div class="constantes caracteres">0,6</div>
+
+                        </div>
+                        <div class="denominador"> 
+                            <div class="constantes caracteres">2</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">0,25</div>
+                        </div>
+                    </div>
+                    <div class="expresion formulas">
+                        <div class="equal">
+                            <div class="constantes caracteres">B</div>
+                            <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador"> 
+                            <div class="constantes caracteres">2,4π</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">10<sup>-4</sup></div>
+                        </div>
+                         <div class="denominador">
+                            <div class="constantes caracteres">0,5</div>
+                        </div>
+                    </div>
+                    <div class="expresion formulas">
+                        <div class="equal">
+                            <div class="constantes caracteres">B</div>
+                            <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador"> 
+                            <div class="constantes caracteres">4,8π</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">10<sup>-4</sup>T</div>
+                        </div>
+                        
+                    </div>
+                    <div class="expresion formulas">
+                        <div class="equal">
+                            <div class="constantes caracteres">B</div>
+                            <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador"> 
+                            <div class="constantes caracteres">1,5 · 10<sup>-5</sup>T</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            `
         }, 
         {
             statements:`
@@ -517,7 +595,136 @@ export default function  dataBase(){
             inlustration:"../img/inlustrations/image-7.png",
             resolved: false,
             id:"07",
-            resposta:"[(3/1250)*μ0^(-1)]"
+            resposta:"[(3/1250)*μ0^(-1)]",
+            calculos:`
+               <div class="conteiner-calculos">
+                    <div class="expresion formulas">
+                        <div class="equal">
+                                <div class="constantes caracteres">B</div>
+                                <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador"> 
+                                <div class="constantes caracteres">μ0</div>
+                                <div class="caracteres">•</div>
+                                <div class="constantes caracteres">I</div>
+                                <div class="caracteres">•</div>
+                                <div class="constantes caracteres">N</div>
+                        </div>
+                        <div class="denominador"> 
+                            <div class="constantes caracteres">2</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">R</div>
+                            
+                        </div>
+                    </div>
+                    <div class="expresion formulas">
+                        <div class="equal">
+                            <div class="constantes caracteres">4</div>
+                            <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador"> 
+                                <div class="constantes caracteres">4π · 10<sup>-7</sup></div>
+                                <div class="caracteres">•</div>
+                                <div class="constantes caracteres">10<sup>2</sup></div>
+                                <div class="caracteres">•</div>
+                                <div class="constantes caracteres">i</div>
+
+                        </div>
+                        <div class="denominador"> 
+                            <div class="constantes caracteres">2</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">3</div>
+                             <div class="caracteres">•</div>
+                            <div class="constantes caracteres">10<sup>-2</sup></div>
+                        </div>
+                    </div>
+                    <div class="expresion formulas">
+                        <div class="equal">
+                            <div class="constantes caracteres">4π · 10<sup>-7</sup></div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">10<sup>2</sup></div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">i</div>
+                            <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador">
+                           
+                            <div class="constantes caracteres">4</div> 
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">2</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">3</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">10<sup>-2</sup></div>
+                        </div>
+                    </div>
+                    <div class="expresion formulas">
+                            <div class="equal">
+                                <div class="constantes caracteres">i</div>
+                                <div class="caracteres">=</div>
+                            </div>
+                            <div class="numerador"> 
+                                <div class="constantes caracteres">24</div>
+                                <div class="caracteres">•</div>
+                                <div class="constantes caracteres">10<sup>-2</sup></div>
+                            </div>
+                            <div class="denominador"> 
+                                <div class="constantes caracteres">4π · 10<sup>-5</sup></div>
+                            </div>
+                            
+                    </div>
+                    <div class="expresion formulas">
+                        <div class="equal">
+                            <div class="constantes caracteres">i</div>
+                            <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador"> 
+                            <div class="constantes caracteres">24</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">10<sup>-2</sup></div>
+                        </div>
+                        <div class="denominador"> 
+                            <div class="constantes caracteres">12,56</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">10<sup>-5</sup></div>
+                        </div>
+                        
+                    </div>
+                    <div class="expresion formulas">
+                        <div class="equal">
+                            <div class="constantes caracteres">i</div>
+                            <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador"> 
+                            <div class="constantes caracteres">1,9</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">10<sup>-2</sup></div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">10<sup>5</sup></div>
+                        </div>
+                    </div>
+                    <div class="expresion formulas">
+                        <div class="equal">
+                            <div class="constantes caracteres">i</div>
+                            <div class="caracteres">=</div>
+                        </div>
+                        <div class="numerador"> 
+                            <div class="constantes caracteres">1,9</div>
+                            <div class="caracteres">•</div>
+                            <div class="constantes caracteres">10<sup>3</sup></div>
+                        </div>
+                    </div>
+                    <div class="expresion formulas">
+                            <div class="equal">
+                                <div class="constantes caracteres">i</div>
+                                <div class="caracteres">=</div>
+                            </div>
+                            <div class="numerador"> 
+                                <div class="constantes caracteres">1 900 A</div>
+                            </div>
+                    </div>
+                </div>
+            `
         },
         {
             statements:`

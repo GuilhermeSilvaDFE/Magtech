@@ -45,6 +45,9 @@ import DoDragAndDrop from "./drag_end_drop.js"
     const btnInlustration = document.querySelector(".btn-Inlustração")
     const modalInlustration = document.querySelector(".modal-inlustration")
     const btnCloseInlustration = document.querySelector(".modal-inlustration__btn-close")
+    
+   
+
     btnInlustration.addEventListener("click", ()=>{
            
             modalInlustration.showModal()

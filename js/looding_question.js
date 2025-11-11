@@ -19,6 +19,8 @@ for (let el of currentProfile.data) {
             document.querySelector(".section-display-formulas").innerHTML = el.calculos
             btn_processar.textContent = "processado"
 
+            document.querySelector(".btn-Inlustração").removeAttribute("id")
+
             let buttonsOfModal = document.querySelectorAll(".section-opitions-conteiner button")
             buttonsOfModal.forEach((btn)=>{
             if(!Array.from(btn.classList).find(clas => clas == "btn-processar-calculo")){

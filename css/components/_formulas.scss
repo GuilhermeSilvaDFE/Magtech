@@ -69,9 +69,10 @@
             background-color: $color-white;
             box-shadow: 8px 8px 0px $color-black;
             color: $color-black;
-            
+            font-weight: bold ;
+
             .constantes{
-                border: 1.4px solid $color-black;
+                border: 2.8px solid $color-black;
                 padding: 1px;
 
                 &:hover{

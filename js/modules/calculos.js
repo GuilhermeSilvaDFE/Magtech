@@ -140,6 +140,9 @@ btn_processar.addEventListener("click",()=>{
           modalWarn("../img/icon-corret.png", "Parabéns! Certa resposta!", "../sounds/victory.mp3", 1)
 
           let buttonsOfModal = document.querySelectorAll(".section-opitions-conteiner button")
+          
+          document.querySelector(".btn-Inlustração").removeAttribute("id")
+
           buttonsOfModal.forEach((btn)=>{
             if(!Array.from(btn.classList).find(clas => clas == "btn-processar-calculo")){
               
